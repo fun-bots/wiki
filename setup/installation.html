@@ -2,7 +2,7 @@
 title: Installation
 description: 
 published: true
-date: 2021-08-29T13:54:24.172Z
+date: 2021-08-29T15:03:41.960Z
 tags: 
 editor: ckeditor
 dateCreated: 2021-08-29T12:53:29.352Z
@@ -17,15 +17,16 @@ dateCreated: 2021-08-29T12:53:29.352Z
 <p>TBA</p>
 <h2>Software requirements</h2>
 <p>There are no special software requirements for fun-bots.</p>
+<p>Fun-bots require at least VeniceEXT <code>1.1.0</code>, this is automatically installed by the server software.</p>
 <h2>Hardware requirements</h2>
-<p>There are no special hardware requirements for fun-bots.</p>
+<p>There are no special hardware requirements for fun-bots other than the <a href="https://docs.veniceunleashed.net/hosting/prereq/#system-requirements">Venice Unleashed server requirements</a>.&nbsp;</p>
 <h1>Installation</h1>
-<p>The installation is extremely simple.</p>
+<p>The installation is an extremely simple process.</p>
 <figure class="image image-style-align-right"><img src="/setup/download_source_code_from_releases.png">
   <figcaption>Downloading a release or tag</figcaption>
 </figure>
-<p><strong>1. Download the best version for fun-bots.</strong></p>
-<p>&nbsp;</p>
+<h3><strong>1. Download the best version for fun-bots.</strong></h3>
+<p>Pick the most appropriate version for your server. We recommend “Full Release” or “Release Candidates” on production server and “Development Releases” for development-related builds.&nbsp;<br>&nbsp;</p>
 <figure class="table">
   <table>
     <thead>
@@ -57,17 +58,17 @@ dateCreated: 2021-08-29T12:53:29.352Z
 <figure class="image image-style-align-right"><img src="https://user-images.githubusercontent.com/57008952/124305709-bdf40d80-db65-11eb-9683-5524fd9e71f8.png" alt="Image">
   <figcaption>Example of an unpacked fun-bots folder</figcaption>
 </figure>
-<p><strong>2. Unpack the compressed file.</strong></p>
-<p>Unpack the content of the downloaded file to your <code>Admin\Mods</code> directory. (Usually located at <i>My Documents\Battlefield 3\Server\Admin\Mods</i>).</p>
+<h3><strong>2. Unpack the compressed file</strong></h3>
+<p>Unpack the content of the downloaded file to your <code>Admin\Mods</code> directory. (Usually located at <i>My Documents\Battlefield 3\Server\Admin\Mods</i>). Verify that the files inside are correct (it should contain the mod.json, etc).</p>
 <ul>
-  <li>Due to a <a href="https://github.com/EmulatorNexus/VeniceUnleashed/issues/663">bug</a> with Venice Unleashed, it is <strong>highly recommended</strong> to rename <code>funbots-1.0.0.0</code> to simply <code>funbots</code></li>
+  <li>Due to a <a href="https://github.com/EmulatorNexus/VeniceUnleashed/issues/663">bug</a> with Venice Unleashed, it is <strong>highly recommended</strong> to rename <code>funbots-1.0.0.0</code> to simply <code>funbots</code> to make console commands to work.</li>
 </ul>
 <p>&nbsp;</p>
-<p><strong>3. Add the name of the mod to the ModList.txt</strong></p>
+<h3><strong>3. Add the name of the mod to the ModList.txt</strong></h3>
 <figure class="image image-style-align-right"><img src="/setup/modlist_txt_and_admin_folder.png"></figure>
 <p>Create a new file in <code>Admin</code> folder, only if it doesn't exist yet, and name it <code>ModList.txt</code>.</p>
 <p>Edit the file and add, or append the name of the fun-bots mod folder to the ModList.</p>
-<p><strong>4. Start up the server</strong></p>
+<h3>4. Start up the server</h3>
 <p>You can now start up your server and it should start a short installation process where it'll install the latest content.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
